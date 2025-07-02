@@ -2,8 +2,8 @@ import os
 
 
 class CleanUpFile:
-    def __init__(self, filename: str) -> None:
-        self.filename = filename
+    def __init__(self, file_name: str) -> None:
+        self.filename = file_name
 
     def __enter__(self) -> None:
         return self
